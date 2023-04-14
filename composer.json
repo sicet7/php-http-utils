@@ -1,0 +1,21 @@
+{
+    "name": "sicet7/php-http-utils",
+    "description": "HTTP utillity classes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sicet7\\HttpUtils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin René Sørensen",
+            "email": "git@sicet7.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0 || ^2.0"
+    }
+}
